@@ -1,6 +1,6 @@
 # 🌐 Página Profesional - Antonio Hernández Pinto
 
-Este repositorio contiene la página web profesional de **Antonio Hernández Pinto**, desarrollada en **HTML + CSS + JS** y preparada para ser **responsive** (adaptada a móvil) con opción de **tema claro/oscuro**.
+Este repositorio contiene la página web profesional de **Antonio Hernández Pinto**, desarrollada en **HTML + CSS + JS** ,**responsive** (adaptada a móvil) con opción de **tema claro/oscuro**.
 
 ## 📂 Contenido
 - `index.html` → Página principal
@@ -21,4 +21,4 @@ Este repositorio contiene la página web profesional de **Antonio Hernández Pin
 
 ---
 
-© 2025 Antonio Hernández Pinto
+© 2026 Antonio Hernández Pinto
