@@ -17,6 +17,7 @@ Este repositorio contiene la página web profesional de **Antonio Hernández Pin
   - Experiencia
   - Formación
   - Proyectos
+  - CV
   - Contacto
 
 ---
