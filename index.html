@@ -4,190 +4,233 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Antonio Hernández Pinto - Senior QA Engineer</title>
+  <meta name="description" content="Senior QA Engineer | SDET | Automatización de pruebas, CI/CD, calidad de software." />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
   <header>
     <nav class="navbar">
-      <a class="logo" href="#inicio">AHP</a>
-      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
-      <ul class="nav-links">
+      <a class="logo" href="#inicio" aria-label="Inicio">AHP</a>
+
+      <div class="nav-actions">
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-menu">☰</button>
+        <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
+      </div>
+
+      <ul class="nav-links" id="main-menu">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#competencias">Competencias</a></li>
         <li><a href="#experiencia">Experiencia</a></li>
         <li><a href="#formacion">Formación</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
-	<li><a href="#cv">CV</a></li>
+        <li><a href="#cv">CV</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
-      <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
     </nav>
   </header>
 
-  <section id="inicio" class="section inicio">
-    <h1>Antonio Hernández Pinto</h1>
-    <h2>Senior QA Engineer en Telefónica Tech</h2>
-    <p>
-      Analista Senior de QA con más de 17 años de experiencia en el ciclo completo de desarrollo de software,
-      incluyendo diseño, desarrollo e implementación de planes de pruebas, casos de prueba y procesos de testing
-      que impulsan acciones correctivas rápidas, ahorro de costes y auditorías sin fallos.
-    </p>
-    <p>
-      ✔ Más de 10 años en QA + 1 año adicional en desarrollo y UAT.<br/>
-      ✔ Excelentes habilidades analíticas y de resolución de problemas.<br/>
-      ✔ Inglés intermedio (B2), certificado por British Council (FCE).
-    </p>
-  </section>
+  <main>
+    <section id="inicio" class="section inicio card">
+      <p class="kicker">Senior QA Engineer · SDET · Telefónica Tech</p>
+      <h1>Antonio Hernández Pinto</h1>
+      <h2>Calidad de software, automatización y CI/CD con foco en impacto real</h2>
 
-  <section id="competencias" class="section">
-    <h2>Competencias Principales</h2>
-    <ul>
-      <li>Diseño y ejecución de planes de prueba detallados.</li>
-      <li>Automatización de pruebas funcionales web (Java: Gradle, Selenium, TestNG, Maven).</li>
-      <li>Automatización de pruebas de aceptación con Python, Behave y Gherkin.</li>
-      <li>Integración continua (Jenkins, Docker, Kubernetes).</li>
-      <li>Gestión de defectos en Jira y Redmine.</li>
-      <li>Revisión estática de código (SonarQube).</li>
-      <li>Certificación ISTQB (Foundation, Advanced, Agile Extension).</li>
-    </ul>
+      <p>
+        Analista Senior de QA con más de 17 años de experiencia en el ciclo completo de desarrollo de software,
+        incluyendo diseño, desarrollo e implementación de planes de pruebas, casos de prueba y procesos de testing
+        que impulsan acciones correctivas rápidas, ahorro de costes y auditorías sin fallos.
+      </p>
 
-    <h2>Competencias Técnicas</h2>
-    <ul>
-      <li><strong>Tipos de prueba:</strong> Funcional, Smoke, GUI, Regresión, UAT, automatización.</li>
-      <li><strong>Plataformas:</strong> Windows, Android, iOS, Ubuntu.</li>
-      <li><strong>Bases de datos:</strong> MySQL, Elasticsearch, Oracle (SQL avanzado).</li>
-      <li><strong>Gestión de pruebas:</strong> Jira, Testlink, Quality Center.</li>
-      <li><strong>Frameworks:</strong> Selenium WebDriver, Rest Assured.</li>
-      <li><strong>Control de versiones:</strong> Git, Bitbucket, SmartGit, GitHub.</li>
-      <li><strong>Lenguajes:</strong> Shell scripting, Java, Python.</li>
-      <li><strong>Entornos:</strong> Eclipse, IntelliJ IDEA, PyCharm.</li>
-      <li><strong>CI/CD:</strong> Jenkins, Tomcat, Gradle, Maven, Ant.</li>
-    </ul>
-  </section>
+      <p>
+        ✔ Más de 10 años en QA + 1 año adicional en desarrollo y UAT.<br />
+        ✔ Excelentes habilidades analíticas y de resolución de problemas.<br />
+        ✔ Inglés intermedio (B2), certificado por British Council (FCE).
+      </p>
 
-  <section id="experiencia" class="section">
-    <h2>Experiencia</h2>
-
-    <h3>SDET – ElevenPaths / Telefónica Tech, Madrid</h3>
-    <p><em>Abril 2019 – Actualidad</em></p>
-    <ul>
-      <li>Automatización de pruebas con Python y PyCharm.</li>
-      <li>Diseño de casos en Gherkin (front y backend).</li>
-      <li>Reporte de incidencias en entornos ágiles.</li>
-      <li>Framework completo de pruebas (API, RabbitMQ, Web) con ejecución automática en CI.</li>
-    </ul>
-
-    <h3>Senior QA Test Lead & DevOps Engineer – Locken Ibérica, Madrid</h3>
-    <p><em>Enero 2016 – Abril 2019</em></p>
-    <ul>
-      <li>Sistema de CI con Jenkins y shell scripts.</li>
-      <li>Liderazgo de equipo de QA.</li>
-      <li>Reporting diario automático para detección temprana de errores.</li>
-    </ul>
-
-    <h3>QA Lead – MTP / TGT (Telefónica Global Technology), Madrid</h3>
-    <p><em>Junio 2015 – Diciembre 2015</em></p>
-    <ul>
-      <li>Coordinación de equipo QA en Data Warehouse (Oracle).</li>
-      <li>Detección de defectos críticos en SAP y LATAM.</li>
-    </ul>
-
-    <h3>QA Engineer – MTP / Vodafone, Madrid</h3>
-    <p><em>Julio 2013 – Junio 2015</em></p>
-    <ul>
-      <li>Liderazgo de 3 testers QA.</li>
-      <li>Prevención de cargos erróneos en facturación Vodafone.</li>
-    </ul>
-
-    <h3>QA Engineer – MTP / Movistar, Madrid</h3>
-    <p><em>Septiembre 2007 – Julio 2013</em></p>
-    <ul>
-      <li>Análisis de requisitos y diseño de planes de prueba.</li>
-      <li>Prevención de pérdidas en paquetes Trio y Duo.</li>
-    </ul>
-
-    <h3>HelpDesk – Canon, Valladolid</h3>
-    <p><em>Octubre 2003 – Septiembre 2007</em></p>
-    <ul>
-      <li>Soporte técnico vía teléfono, email y tickets.</li>
-      <li>Diagnóstico y resolución de incidencias hardware/software.</li>
-    </ul>
-
-    <h2>Experiencia Internacional</h2>
-    <h3>Consultor Externo – MTP, México Movistar</h3>
-    <p><em>Marzo 2014</em></p>
-    <ul>
-      <li>Establecimiento de laboratorio QA en México.</li>
-      <li>Detección de fallos críticos en recargas prepago.</li>
-    </ul>
-  </section>
-
-  <section id="formacion" class="section">
-    <h2>Formación Académica</h2>
-    <ul>
-      <li>Grado en Magisterio – Fray Luis de León, 2001</li>
-      <li>Ciclo Formativo en Desarrollo de Aplicaciones Informáticas – Gregorio Fernández, 2003</li>
-      <li>Máster en Desarrollo COBOL – Aubay, 2007</li>
-    </ul>
-
-    <h2>Certificaciones y Cursos</h2>
-    <ul>
-      <li>ISTQB Foundation (2011), Advanced (2015), Agile Extension (2015)</li>
-      <li>Curso de Business Intelligence (2016)</li>
-      <li>Kubernetes Essentials (2019)</li>
-      <li>Conferencias: Codemotion, Commit Conference, Summit 2025</li>
-      <li>AWS Technical Essentials (2025), AWS Generative AI (2025)</li>
-    </ul>
-  </section>
-
-  <section id="proyectos" class="section">
-    <h2>Proyectos</h2>
-    <ul>
-      <li>SandasGRC (ElevenPaths)</li>
-      <li>Dinoflux</li>
-      <li>Vamps</li>
-      <li>Tu Empresa Segura</li>
-      <li>Tu Gestor Tecnológico</li>
-    </ul>
-  </section>
-    <section id="cv" class="section cv-section">
-    <h2>Descargar CV</h2>
-      <p>Puedes descargar mi currículum en formato PDF:</p>
-       <div class="cv-actions">
-	  <a href="./assets/cv/Antonio_Hernandez_Pinto_RESUME_linkedIn_version.pdf" target="_blank" rel="noopener">
-            Descargar CV (ES)
-          </a>
+      <div class="chip-wrap">
+        <span class="chip">Python</span>
+        <span class="chip">Java</span>
+        <span class="chip">Selenium</span>
+        <span class="chip">Behave/Gherkin</span>
+        <span class="chip">Jenkins</span>
+        <span class="chip">Docker</span>
+        <span class="chip">Kubernetes</span>
+        <span class="chip">AWS</span>
       </div>
-  </section>
-  <section id="contacto" class="section contacto">
-    <h2>Contacto</h2>
-    <p>Puedes escribirme a: <a href="mailto:hola@antoniohernandezpinto.com">hola@antoniohernandezpinto.com</a></p>
-    <p><a href="https://www.linkedin.com/in/antonio-hernandez-pinto">LinkedIn</a> |
-       <a href="https://github.com/antoniohernandezpinto">GitHub</a></p>
-  </section>
+    </section>
+
+    <section id="competencias" class="section card">
+      <h2>Competencias Principales</h2>
+      <ul>
+        <li>Diseño y ejecución de planes de prueba detallados.</li>
+        <li>Automatización de pruebas funcionales web (Java: Gradle, Selenium, TestNG, Maven).</li>
+        <li>Automatización de pruebas de aceptación con Python, Behave y Gherkin.</li>
+        <li>Integración continua (Jenkins, Docker, Kubernetes).</li>
+        <li>Gestión de defectos en Jira y Redmine.</li>
+        <li>Revisión estática de código (SonarQube).</li>
+        <li>Certificación ISTQB (Foundation, Advanced, Agile Extension).</li>
+      </ul>
+
+      <h2>Competencias Técnicas</h2>
+      <ul>
+        <li><strong>Tipos de prueba:</strong> Funcional, Smoke, GUI, Regresión, UAT, automatización.</li>
+        <li><strong>Plataformas:</strong> Windows, Android, iOS, Ubuntu.</li>
+        <li><strong>Bases de datos:</strong> MySQL, Elasticsearch, Oracle (SQL avanzado).</li>
+        <li><strong>Gestión de pruebas:</strong> Jira, Testlink, Quality Center.</li>
+        <li><strong>Frameworks:</strong> Selenium WebDriver, Rest Assured.</li>
+        <li><strong>Control de versiones:</strong> Git, Bitbucket, SmartGit, GitHub.</li>
+        <li><strong>Lenguajes:</strong> Shell scripting, Java, Python.</li>
+        <li><strong>Entornos:</strong> Eclipse, IntelliJ IDEA, PyCharm.</li>
+        <li><strong>CI/CD:</strong> Jenkins, Tomcat, Gradle, Maven, Ant.</li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="section card">
+      <h2>Experiencia</h2>
+
+      <h3>SDET – ElevenPaths / Telefónica Tech, Madrid</h3>
+      <p><em>Abril 2019 – Actualidad</em></p>
+      <ul>
+        <li>Automatización de pruebas con Python y PyCharm.</li>
+        <li>Diseño de casos en Gherkin (front y backend).</li>
+        <li>Reporte de incidencias en entornos ágiles.</li>
+        <li>Framework completo de pruebas (API, RabbitMQ, Web) con ejecución automática en CI.</li>
+      </ul>
+
+      <h3>Senior QA Test Lead & DevOps Engineer – Locken Ibérica, Madrid</h3>
+      <p><em>Enero 2016 – Abril 2019</em></p>
+      <ul>
+        <li>Sistema de CI con Jenkins y shell scripts.</li>
+        <li>Liderazgo de equipo de QA.</li>
+        <li>Reporting diario automático para detección temprana de errores.</li>
+      </ul>
+
+      <h3>QA Lead – MTP / TGT (Telefónica Global Technology), Madrid</h3>
+      <p><em>Junio 2015 – Diciembre 2015</em></p>
+      <ul>
+        <li>Coordinación de equipo QA en Data Warehouse (Oracle).</li>
+        <li>Detección de defectos críticos en SAP y LATAM.</li>
+      </ul>
+
+      <h3>QA Engineer – MTP / Vodafone, Madrid</h3>
+      <p><em>Julio 2013 – Junio 2015</em></p>
+      <ul>
+        <li>Liderazgo de 3 testers QA.</li>
+        <li>Prevención de cargos erróneos en facturación Vodafone.</li>
+      </ul>
+
+      <h3>QA Engineer – MTP / Movistar, Madrid</h3>
+      <p><em>Septiembre 2007 – Julio 2013</em></p>
+      <ul>
+        <li>Análisis de requisitos y diseño de planes de prueba.</li>
+        <li>Prevención de pérdidas en paquetes Trio y Duo.</li>
+      </ul>
+
+      <h3>HelpDesk – Canon, Valladolid</h3>
+      <p><em>Octubre 2003 – Septiembre 2007</em></p>
+      <ul>
+        <li>Soporte técnico vía teléfono, email y tickets.</li>
+        <li>Diagnóstico y resolución de incidencias hardware/software.</li>
+      </ul>
+
+      <h2>Experiencia Internacional</h2>
+      <h3>Consultor Externo – MTP, México Movistar</h3>
+      <p><em>Marzo 2014</em></p>
+      <ul>
+        <li>Establecimiento de laboratorio QA en México.</li>
+        <li>Detección de fallos críticos en recargas prepago.</li>
+      </ul>
+    </section>
+
+    <section id="formacion" class="section card">
+      <h2>Formación Académica</h2>
+      <ul>
+        <li>Grado en Magisterio – Fray Luis de León, 2001</li>
+        <li>Ciclo Formativo en Desarrollo de Aplicaciones Informáticas – Gregorio Fernández, 2003</li>
+        <li>Máster en Desarrollo COBOL – Aubay, 2007</li>
+      </ul>
+
+      <h2>Certificaciones y Cursos</h2>
+      <ul>
+        <li>ISTQB Foundation (2011), Advanced (2015), Agile Extension (2015)</li>
+        <li>Curso de Business Intelligence (2016)</li>
+        <li>Kubernetes Essentials (2019)</li>
+        <li>Conferencias: Codemotion, Commit Conference, Summit 2025</li>
+        <li>AWS Technical Essentials (2025), AWS Generative AI (2025)</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="section card">
+      <h2>Proyectos</h2>
+      <ul>
+        <li>SandasGRC (ElevenPaths)</li>
+        <li>Dinoflux</li>
+        <li>Vamps</li>
+        <li>Tu Empresa Segura</li>
+        <li>Tu Gestor Tecnológico</li>
+      </ul>
+    </section>
+
+    <section id="cv" class="section card cv-section">
+      <h2>Descargar CV</h2>
+      <p>Puedes descargar mi currículum en formato PDF:</p>
+      <div class="cv-actions">
+        <a class="cv-btn" href="./assets/cv/Antonio_Hernandez_Pinto_RESUME_linkedIn_version.pdf" target="_blank" rel="noopener">
+          Descargar CV (ES)
+        </a>
+      </div>
+    </section>
+
+    <section id="contacto" class="section card contacto">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a: <a href="mailto:hola@antoniohernandezpinto.com">hola@antoniohernandezpinto.com</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/antonio-hernandez-pinto" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://github.com/antoniohernandezpinto" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Antonio Hernández Pinto</p>
+    <p>© 2026 Antonio Hernández Pinto</p>
   </footer>
 
   <script>
-    // Menú hamburguesa
     const toggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.nav-links');
+    const themeBtn = document.querySelector('.theme-toggle');
+
+    // menú mobile
     toggle.addEventListener('click', () => {
-      nav.classList.toggle('active');
+      const isOpen = nav.classList.toggle('active');
+      toggle.setAttribute('aria-expanded', String(isOpen));
     });
 
-    // Switch tema
-    const themeBtn = document.querySelector('.theme-toggle');
+    // cerrar menú al hacer click en link (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('active');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // tema persistente
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.body.classList.add('dark');
+      themeBtn.textContent = '☀️';
+    }
+
     themeBtn.addEventListener('click', () => {
       document.body.classList.toggle('dark');
-      if (document.body.classList.contains('dark')) {
-        themeBtn.textContent = '☀️';
-      } else {
-        themeBtn.textContent = '🌙';
-      }
+      const isDark = document.body.classList.contains('dark');
+      themeBtn.textContent = isDark ? '☀️' : '🌙';
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
     });
   </script>
 </body>
