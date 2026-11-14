@@ -23,3 +23,10 @@ Este repositorio contiene la página web profesional de **Antonio Hernández Pin
 ---
 
 © 2026 Antonio Hernández Pinto
+
+
+## SEO y CV
+- `robots.txt` y `sitemap.xml` utilizan el dominio canónico `https://antoniohernandezpinto.com/`.
+- El sitio declara la URL canónica y metadatos Open Graph.
+- El CV PDF descargable se mantiene en `assets/cv/Antonio_Hernandez_Pinto_RESUME_linkedIn_version.pdf`.
+- Experiencia añadida: Thanos — Google SecOps (proyecto BBVA), octubre de 2026–actualidad.

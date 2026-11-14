@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://github.com/antoniohernandezpinto/professional-profile/blob/main/sitemap.xml
+
+Sitemap: https://antoniohernandezpinto.com/sitemap.xml
